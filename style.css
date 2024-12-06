@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Ubuntu:ital,wght@0,700;1,400&display=swap');
+
 body {
   font-family: 'Braah One', sans-serif;
   background-color: #F0F0F0;
 }
+
 h1 {
   color: #0A6847;
 	text-align: center;
 }
+
 .container {
   background-color: #d4d4b0;
   width: 15%;
@@ -15,23 +18,28 @@ h1 {
   height: 100%;
   padding: 10px;
 }
+
 #left-container {
   left: 0px;
 }
+
 #right-container {
   right: 0px;
 }
+
 .plant-holder {
 	position: relative;
 	height: 13%;
 	left: -10px;
 }
+
 .plant {
 	position: absolute;
 	max-width: 150%;
 	max-height: 150%;
 	z-index: 2;
 }
+
 .jar-walls {
 	height: 80%;
 	width: 60%;
@@ -43,6 +51,7 @@ h1 {
 	opacity: 0.5;
 	z-index: 1;
 }
+
 .jar-top {
 	width: 50%;
 	height: 5%;
@@ -53,6 +62,7 @@ h1 {
 	opacity: 0.7;
 	z-index: 1;
 }
+
 .jar-bottom {
 	width: 50%;
 	height: 1%;
@@ -62,6 +72,7 @@ h1 {
 	left: 25%;
 	opacity: 0.7;
 }
+
 .dirt {
 	width: 60%;
 	height: 5%;
@@ -72,4 +83,24 @@ h1 {
 	left: 20%;
 	opacity: 0.7;
 	z-index: -1;
+}
+.jar-glossy-long {
+  background-color: #eefeff;
+  position: absolute;
+  border-radius: 20px;
+  height: 30%;
+  width: 4%;
+  top: 50%;
+  left: 5%;
+  z-index: -1;
+}
+.jar-glossy-short {
+  background-color: #eefeff;
+  position: absolute;
+  border-radius: 20px;
+  height: 8%;
+  width: 4%;
+  top: 40%;
+  left: 5%;
+  z-index: -1;
 }
